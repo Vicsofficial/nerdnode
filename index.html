@@ -6,9 +6,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         
     <style>                
-
             * {
                 max-width: 80vw;
                 margin: 20px auto;
@@ -42,7 +43,7 @@
                 background-color: #4d20ff;
             }
 
-            .twitter {
+            .twitter, .learnmore {
                 background-color: #4d20ff;
             }
 
@@ -54,9 +55,16 @@
             .image {
                 height: 100px;
                 width: 100px;
+                background-image: url(Nerd\ Node\ Small\ Logo.png);
                 background-size: cover;
                 background-repeat: no-repeat;
                 margin-bottom: 60px;
+            }
+
+            @media screen and (max-width: 767px) {
+                h1 {
+                    padding-right: 50px;
+                }
             }
     </style>
     </head>
@@ -66,7 +74,8 @@
         <h3>A forum to help the dev community learn and grow better, one node at a time 🧑‍💻👩‍💻</h3><br><br>
         <div class="box">
             <h2>Launching Soon!</h2>
-            <p>👉 We're currently in the building stage. Follow us on <a class="twitter" href="https://www.twitter.com/nerdnodedev" target="_blank">Twitter</a> to stay updated on our launch 🚀</p>
+            <p>👉 We're currently in the building stage. Follow us on <a class="twitter" href="https://www.twitter.com/nerdnodedev" target="_blank">Twitter</a> to stay updated on our launch 🚀</p><br>
+            <a class="learnmore" href="About Nerd Node.html" target="_blank">Learn More About Nerd Node ></a>
         </div>
     </body>
 </html>
