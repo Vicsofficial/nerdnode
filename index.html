@@ -17,11 +17,30 @@
                 background-color: black;
                 color: white;
             }
+
+            .topdiv {
+                height: 150px;
+            }
             
-            .navbar {
-                height: 200px;
-                padding-top: -20px;
-                margin-left: -20px;
+            nav {
+                max-width: 100%;
+                text-align: right;
+            }
+
+            nav ul li {
+                display: inline-block;
+                margin: 25px;
+                text-decoration: none;
+                color: #4d20ff;
+            }
+
+            ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+            ul li a :hover {
+                color: #4d20ff;
             }
             
             h1 {
@@ -58,7 +77,7 @@
                 background-image: url(Nerd\ Node\ Small\ Logo.png);
                 background-size: cover;
                 background-repeat: no-repeat;
-                margin-bottom: 60px;
+                margin-top: -110px;
             }
 
             @media screen and (max-width: 767px) {
@@ -69,9 +88,21 @@
     </style>
     </head>
     <body>
-        <img src="Nerd-Node-Small-Logo.png" class="image">
-        <h1>Welcome to Nerd Node</h1>
-        <h3>A forum to help the dev community learn and grow better, one node at a time 🧑‍💻👩‍💻</h3><br><br>
+        <div class="topdiv">
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="About Nerd Node.html" target="_blank">About</a></li>
+                        <li><a href="https://www.twitter.com/nerdnodedev" target="_blank">Connect</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <img src="Nerd-Node-Small-Logo.png" class="image">
+            </div>
+        </div>
+            <h1>Welcome to Nerd Node</h1>
+            <h3>A forum to help the dev community learn and grow better, one node at a time 🧑‍💻👩‍💻</h3><br><br>
         <div class="box">
             <h2>Launching Soon!</h2>
             <p>👉 We're currently in the building stage. Follow us on <a class="twitter" href="https://www.twitter.com/nerdnodedev" target="_blank">Twitter</a> to stay updated on our launch 🚀</p><br>
